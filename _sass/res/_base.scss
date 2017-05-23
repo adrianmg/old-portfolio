@@ -28,6 +28,11 @@ dl, dd, ol, ul, figure {
 }
 
 /**
+ * Trick to expand 100% height if needed
+ */
+html, body { height: 100%; }
+
+/**
  * Basic styling
  */
 body {

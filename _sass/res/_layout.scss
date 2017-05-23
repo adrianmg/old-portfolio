@@ -2,18 +2,21 @@
  * Home
  */
 .home {
-  height: 100vh;
-  padding: 0 3.4em 3.4em;
+  height: 100%;
+  padding: 0 3.4em;
   color: #EBF1F5;
 }
 
 .home-inner {
   position: relative;
-  top: 37%;
+  top: 44%;
+  -webkit-transform: translateY(-44%);
+          transform: translateY(-44%);
+  max-width: 80rem;
 }
 .home-inner h1 {
   font-size: 7.2rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: .25em;
   font-weight: 500;
   color: #F3F5FD;
 }
@@ -52,6 +55,33 @@
 /**
  * Media queries
  */
+@media (max-width: 768px) {
+  body {
+    font-size: 1.8rem;
+  }
+  .home {
+    padding: 0 1.4em 2em;
+  }
+  .home-inner br {
+    display: none;
+  }
+  .home-inner h1 {
+    font-size: 4rem;
+  }
+  .home-inner p {
+    line-height: 3.0rem;
+  }
+}
+
+@media (max-height: 400px) {
+  .home-inner {
+    top: 36%;
+    -webkit-transform: translateY(-36%);
+            transform: translateY(-36%);
+  }
+  .home-menu { bottom: 20%; }
+}
+
 // @media (min-width: 769px) {
 //   body {
 //     font-size: 2.4rem;
