@@ -59,11 +59,18 @@ ul, ol, dl, figure,
 }
 
 /**
- * Images
+ * Headers
  */
-img {
-  max-width: 100%;
-  vertical-align: middle;
+h1, h2 {
+  color: $title-color;
+}
+
+/**
+ * Lists
+ */
+ul{
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 /**
