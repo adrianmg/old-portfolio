@@ -94,7 +94,6 @@ a {
 .home {
   height: 100%;
   padding: 0 3.4em;
-  padding: 0 5.7%;
   color: #EBF1F5; }
 
 .home-inner {
@@ -144,12 +143,11 @@ a {
   padding-top: 12.0rem; }
 
 .project {
-  margin-bottom: 14.1rem; }
+  margin-bottom: 14.1rem;
+  padding: 0 3.4em; }
 
 .project-description {
   margin-bottom: 5.5rem;
-  padding: 0 3.4em;
-  padding: 0 5.7%;
   font-size: 1.4rem;
   line-height: 2.0rem;
   display: flex; }
@@ -164,7 +162,7 @@ a {
   margin-bottom: 1.4rem; }
 
 .image-container {
-  width: 94.4%;
+  width: 100%;
   margin: 0 auto;
   text-align: center; }
 
