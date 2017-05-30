@@ -108,7 +108,9 @@ img { width: 100%; }
   .home-inner p {
     line-height: 3.0rem;
   }
-  .project {padding: 0 1.4em 2em; }
+  .project {
+    padding: 0 1.4em 2em;
+  }
 }
 
 @media (max-height: 400px) {
