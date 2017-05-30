@@ -100,3 +100,15 @@ a {
   display: table;
   clear: both;
 }
+
+/**
+ * Helpers
+ */
+ .h-absolute {
+  position: absolute;
+ }
+
+ .h-padleft {
+  padding-left: $base-padding;
+ }
+
