@@ -24,6 +24,7 @@ github_username:  adrianmg
 
 # Build settings
 markdown: kramdown
+environment: prod
 #theme: minima
 gems:
   - jekyll-feed
