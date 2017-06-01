@@ -61,25 +61,27 @@
   padding-top: 12.0rem;
 }
 .project {
-  margin-bottom: 14.1rem;
+  margin-bottom: 16.1rem;
   padding: 0 $base-padding;
   // padding: 0 5.7%;
 }
 .project-description {
-  margin-bottom: 5.5rem;
-  font-size: 1.4rem;
-  line-height: 2.0rem;
-  display: flex;
-}
-.project-description .left {
-  max-width: 46.0rem;
-  margin-right: 12.0rem;
+  max-width: 54.0rem;
+  margin-bottom: 5.7rem;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
 }
 .project-description h2{
-  font-size: 2.2rem;
-  line-height: 2.4rem;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
   font-weight: 400;
-  margin-bottom: 1.2rem;
+  margin-bottom: .7rem;
+}
+.project-description h3{
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.0rem;
+  margin-bottom: 1.0rem;
 }
 .image-container {
   width: 100%;
